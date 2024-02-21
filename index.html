@@ -4,12 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-5</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
+<body class="min-h-screen">
     <header>
-        <h1>Hello</h1>
+      <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Destination</a></li>
+                  <li><a>Search</a></li>
+                </ul>
+              </div>
+              <h3 class="text-4xl font-bold">R-Ticket</h3>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+             <button class="btn btn-outline btn-success bg-green-200   ">Bus <img src="images/bus-icon.png" alt=""></button>
+            </div>
+          </div>
+      </nav>
+      <!-- header Section -->
+     
+        <div class="min-h-screen bg-[url(images/banner.png)] bg-no-repeat bg-cover border-solid border-2  border-red-500  mr-36 ml-36 mt-16 mb-96 text-center">
+            <div class="pt-[70px]">
+              <h1 class="text-6xl font-bold text-white ">End-to-End Travel with</h1>
+             <h2 class="text-6xl font-bold text-green-600 ">R Paribahan</h2>
+         </div>
+             <p class="text-white mt-80">Enjoy your journey through our vehicles.We gives you best experience to your Journey</p>
+             <button class="btn btn-success text-black mt-[500px]">Buy Ticket</button>
+      </div>
+     
     </header>
-    <main></main>
+    <main>
+        <section class="text-center">
+            <h2 class="text-3xl font-bold">Best offers for you</h2>
+            <div class="flex items-center justify-center gap-10 mx-9 my-9 ">
+               <div class="flex gap-10 bg-orange-400 rounded-2xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold">15% OFF</h3>
+                    <p>
+                        on your next purchase
+                        use by January 2024</p>
+                </div>
+                <div class="p-6">
+                    <h1 class="text-2xl font-bold">NEW15 <br>
+                        Coupon Code</h1>
+                </div>
+               </div>
+              <div class="flex gap-10 bg-pink-400 rounded-2xl">
+                <div class="p-6">
+                    <h1 class="text-2xl font-bold">20% OFF</h1>
+                    <p> on your next purchase
+                        use by January 2024</p>
+                </div>
+                <div class="p-6">
+                    <h1 class="text-2xl font-bold">Couple 2 <br>
+                        Couple Code
+                    </h1>
+                   
+                </div>
+              </div>
+            </div>
+            <button  class="btn btn-outline btn-success">See All Offers</button>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
